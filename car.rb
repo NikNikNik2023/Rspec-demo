@@ -12,7 +12,7 @@ class Car
   end
 
   def distance
-    0
+    @fuel * MILES_PER_GALLON
   end
 end
 
